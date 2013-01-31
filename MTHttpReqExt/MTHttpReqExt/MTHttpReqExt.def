@@ -5,4 +5,8 @@ DESCRIPTION 'MTHttpReqExt Windows Dynamic Link Library'
 
 EXPORTS
 ; Explicit exports can go here
-Hello
+Hello			@1
+OpenConnection	@2
+SentRequest		@3
+GetResponseData	@4
+CloseConnection	@5
