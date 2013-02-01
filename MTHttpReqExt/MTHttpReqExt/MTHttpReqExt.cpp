@@ -4,6 +4,8 @@
 #include "stdafx.h"
 #include "MTHttpReqExt.h"
 #include "Wininet.h"
+#include "tinyxml.h"
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -195,6 +197,8 @@ MT4_EXPFUNC bool SentRequest(int ConnectionId, char* RequestMethod, char* Reques
 
 MT4_EXPFUNC char*  GetResponseData(char* Key)
 {
+	TiXmlDocument doc;
+	doc.Parse("<xml>");
 	return NULL;
 }
 

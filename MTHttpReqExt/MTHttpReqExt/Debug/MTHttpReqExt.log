@@ -1,13 +1,38 @@
-﻿Build started 2013-01-31 15:17:09.
+﻿Build started 2013-02-01 15:22:00.
      1>Project "D:\src\MTHttpReqExt\MTHttpReqExt\MTHttpReqExt.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         D:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\src\MTHttpReqExt\Debug\MTHttpReqExt.dll" /INCREMENTAL /NOLOGO wininet.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\src\MTHttpReqExt\Debug\MTHttpReqExt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\src\MTHttpReqExt\Debug\MTHttpReqExt.lib" /MACHINE:X86 /DLL Debug\MTHttpReqExt.res
-         Debug\MTHttpReqExt.obj
-         Debug\stdafx.obj
-            Creating library D:\src\MTHttpReqExt\Debug\MTHttpReqExt.lib and object D:\src\MTHttpReqExt\Debug\MTHttpReqExt.exp
-         MTHttpReqExt.vcxproj -> D:\src\MTHttpReqExt\Debug\MTHttpReqExt.dll
-     1>Done Building Project "D:\src\MTHttpReqExt\MTHttpReqExt\MTHttpReqExt.vcxproj" (Build target(s)).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MTHTTPREQEXT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MTHttpReqExt.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MTHttpReqExt.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp xmltest.cpp
+         xmltest.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\xmltest.cpp(8): warning C4627: '#include <sstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\xmltest.cpp(20): warning C4627: '#include "tinyxml.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\xmltest.cpp(1395): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         tinyxmlparser.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxmlparser.cpp(28): warning C4627: '#include "tinyxml.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxmlparser.cpp(36): warning C4005: 'TIXML_LOG' : macro redefinition
+                 d:\src\mthttpreqext\mthttpreqext\tinyxmlparser.cpp(34) : see previous definition of 'TIXML_LOG'
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxmlparser.cpp(1640): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         tinyxmlerror.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxmlerror.cpp(25): warning C4627: '#include "tinyxml.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxmlerror.cpp(53): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         tinyxml.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxml.cpp(28): warning C4627: '#include <sstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxml.cpp(32): warning C4627: '#include "tinyxml.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\tinyxml.cpp(1888): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         tinystr.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\tinystr.cpp(27): warning C4627: '#include "tinystr.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>d:\src\mthttpreqext\mthttpreqext\tinystr.cpp(112): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         MTHttpReqExt.cpp
+     1>d:\src\mthttpreqext\mthttpreqext\mthttpreqext.cpp(135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+     1>Done Building Project "D:\src\MTHttpReqExt\MTHttpReqExt\MTHttpReqExt.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.18
+Time Elapsed 00:00:13.52
